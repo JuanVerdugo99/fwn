@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
 })
 
 router.get('/contact', (req, res) => {
-    res.render('contact.html', {title: 'contact page'})
+    res.render('contact.html', {title: 'Contact page'})
 })
 
 module.exports = router;

@@ -29,6 +29,7 @@ app.use(require('./routes/'))
 
 
 //* STATIC FILES
+app.use(express.static(path.join(__dirname, 'public')))
 
 
 //* LISTENING THE SERVER
