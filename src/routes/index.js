@@ -4,11 +4,11 @@ const router = express.Router()
 
 
 router.get('/', (req, res) => {
-    res.render('index', {title: 'First Website'})
+    res.render('index.html', {title: 'First Website'})
 })
 
 router.get('/contact', (req, res) => {
-    res.render('contact', {title: 'contact page'})
+    res.render('contact.html', {title: 'contact page'})
 })
 
 module.exports = router;
